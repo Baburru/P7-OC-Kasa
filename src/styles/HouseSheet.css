@@ -1,0 +1,117 @@
+.main-content {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+.info-header {
+    width: 90%;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.left-content {
+    color: #FF6060;
+    font-size: 90%;
+    font-weight: 100;
+}
+
+.tag-container {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tag {
+    padding: 5px 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: #FF6060;
+    text-align: center;
+    color: white;
+}
+
+.info-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.host-infos {
+    display: flex;
+    color: #FF6060;
+    margin-bottom: 20px;
+    justify-content: space-evenly;
+}
+
+.host-img {
+    width: 30%;
+    height: 30%;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+}
+
+.host-name {
+    margin-right: 20px;
+    font-size: 120%;
+}
+.host-name-container {
+    line-height: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.hs-h1  {
+    font-weight: 600;
+}
+.hs-h2{
+    font-weight: 500;
+}
+
+.star{
+    width: 20px;
+}
+
+.rating {
+    display: flex;
+    color: #FF6060;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+    .info-header {
+        flex-direction: column;
+    }
+
+    .right-content {
+        margin-top: 20px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: row-reverse;
+    }
+
+    .main-content {
+        flex-direction: column;
+    }
+    .DDTitle {
+        font-size: medium;
+    }
+
+    .rating {
+        width: 50%;
+        font-size: 120%;
+        margin-left: 0;
+    }
+    .host-img {
+        width: 40%;
+    }
+
+
+    .host-name {
+        font-size: 16px;
+    }
+}

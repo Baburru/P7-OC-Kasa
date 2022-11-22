@@ -1,0 +1,23 @@
+.Error {
+    text-align: center;
+    margin-bottom: 120px;
+}
+
+.ErrorH1 {
+    font-size: 170px;
+    color: #ff6060;
+    margin: auto;
+}
+
+.ErrorH2 {
+    color: #ff6060;
+    font-size: 200%;
+    margin-bottom: 120px;
+}
+
+.ErrorLink {
+    padding: 15px;
+    color: #ff6060;
+    text-decoration-line: underline;
+    font-size: 110%;
+}

@@ -1,0 +1,29 @@
+.AboutBanner {
+    width: 90%;
+    position: relative;
+    text-align: center;
+    max-height: 180px;
+    height: auto;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url('../assets/about_img.jpg');
+    border-radius: 25px;
+    margin-bottom: 30px;
+}
+
+.AboutBannerBackground {
+    width: 100%;
+    height: 180px;
+    background-color: #000000;
+    opacity: 0.3;
+    border-radius: 25px;
+}
+
+.AboutMainContent {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 180px;
+}

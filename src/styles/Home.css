@@ -1,0 +1,57 @@
+.HomeBanner {
+    width: 90%;
+    position: relative;
+    text-align: center;
+    max-height: 180px;
+    height: auto;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../assets/Home_img.png');
+    border-radius: 25px;
+    margin-bottom: 30px;
+}
+
+.HomeH1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-weight: 500;
+    font-size: calc(20px + 1.5vw);
+    color: white;
+    width: 100%;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+}
+
+.HomeMainBackground {
+    display: flex;
+    flex-wrap: wrap;
+    background: #f7f7f7;
+    border-radius: 25px;
+    width: 90%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+.HomeBackground {
+    width: 100%;
+    height: 180px;
+    background-color: #000000;
+    opacity: 0.4;
+    border-radius: 25px;
+}
+
+@media only screen and (max-width: 600px) {
+    .HomeBanner, .HomeBackground {
+        height: 100px;
+    }
+
+    .HomeH1 {
+        margin-top: 10px;
+    }
+}

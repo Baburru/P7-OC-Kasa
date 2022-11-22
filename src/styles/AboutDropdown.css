@@ -1,0 +1,53 @@
+.MainDropdown {
+    width: 100%;
+    margin: 10px;
+}
+
+.DDButton {
+    border: none;
+    background: none; 
+}
+
+.DDButton :hover {
+cursor: pointer;
+}
+
+.DDHeader {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #ff6060;
+    border-radius: 10px;
+    position: relative;
+    z-index: 3;
+    margin-top: 20px;
+}
+
+.DDContent {
+    background-color: #f7f7f7;
+    color: #ff6060;
+    padding: 15px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    border-radius: 5px;
+    font-size: calc(13px + 0.4vw);
+    font-weight: lighter;
+    margin-bottom: 0px;
+}
+
+.DDTitle {
+    color: white;
+    margin: 10px;
+    font-weight: lighter;
+    margin-left: 20px;
+}
+
+.DDArrow {
+    margin-right: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+    .MainDropdown {
+        margin: 0;
+    }
+}

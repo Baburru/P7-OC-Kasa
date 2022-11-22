@@ -1,0 +1,64 @@
+.card-img-gradient {
+    max-width: 100%;
+    width: 800px;
+    margin: auto;
+}
+
+.card-img-gradient::after {
+    display: block;
+    position: relative;
+    background: linear-gradient(360deg, rgba(0, 0, 0, 0.7794468129048494) 0%, rgba(0, 0, 0, 0.311659698058911) 35%, rgba(0, 0, 0, 0) 100%);
+    border-radius: 10px;
+    margin-top: -152px;
+    height: 150px;
+    width: 100%;
+    content: '';
+}
+
+.HCMainDiv {
+    border-radius: 10px;
+    position: relative;
+    aspect-ratio: 1/1;
+    width: 29%;
+    margin: 2%;
+    height: width;
+    background-color: #ffffff;
+}
+
+.HCMainDiv :hover {
+    cursor: pointer;
+}
+
+.HCCardImg {
+    width: 100%;
+    border-radius: 10px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+
+.HCCardH2 {
+    font-size: calc(10px + 0.8vw);
+    width: 60%;
+    position: absolute;
+    margin: 10px;
+    bottom: 30px;
+    color: white;
+}
+
+@media only screen and (max-width: 900px) {
+    .HCMainDiv {
+        width: 46%;
+    }
+
+    .HCCardH2 {
+        font-size: 160%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .HCMainDiv {
+        width: 95%;
+    }
+    
+}
+

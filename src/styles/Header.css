@@ -1,0 +1,38 @@
+.header {
+    padding: 10px;
+    margin: 10px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    text-align: center;
+    line-height: 60px;
+}
+
+.HeaderLink {
+    padding: 15px;
+    color: #ff6060;
+    text-decoration-line: none;
+    font-size: calc(14px + 0.7vw);
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.HeaderImg {
+    width: 55%;
+    height: 100%;
+    margin-top: auto;
+    max-width: 200px;
+}
+
+.LogoHeader {
+    width: 40%;
+}
+
+@media only screen and (max-width: 600px) {
+    .HeaderImg {
+        width: 80%;
+    }
+}

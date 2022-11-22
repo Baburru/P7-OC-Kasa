@@ -1,0 +1,64 @@
+.product-carousel {
+    width: 90%;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.pre-btn {
+    position: absolute;
+    top: 45%;
+    right: 20px;
+    font-size: 4rem;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.103);
+    color: white;
+    border-radius: 25px;
+}
+
+.pre-btn, .next-btn :hover {
+cursor: pointer;
+}
+
+.next-btn {
+    position: absolute;
+    top: 45%;
+    left: 20px;
+    font-size: 4rem;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.103);
+    color: white;
+    border-radius: 25px;
+}
+
+.carousel-img {
+    border-radius: 25px;
+    margin: auto;
+    width: 100%;
+    height: 415px;
+    object-fit: cover;
+}
+
+.carou-img {
+    width: 90%;
+    margin: auto;
+    height: 415px;
+    border-radius: 25px;
+    object-fit: cover;
+}
+
+.item-carousel {
+    display: flex;
+    width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    .carousel-img {
+        height: 300px;
+    }
+
+    .next-btn, .pre-btn {
+        top: 40%;
+    }
+}
