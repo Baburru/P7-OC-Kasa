@@ -2,14 +2,22 @@ import React from 'react'
 import { useParams } from 'react-router-dom'
 import AboutDropdown from '../../components/dropdown/AboutDropdown'
 import '../../styles/HouseSheet.css'
+import Error from '../error/Error'
 
 import data from '../../data.json'
 import Carousel from '../../components/Carousel/Carousel'
 
 export default function HouseSheet() {
   const account = useParams().id
+  console.log(account)
 
   const obj = data.find((c) => c.id === account)
+
+  //Mise à jour après soutenance
+  if (obj === undefined) {
+    return <Error />
+  }
+
   const tagList = obj.tags
 
   const ratingNb = parseInt(obj.rating)
